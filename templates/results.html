@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DogVision</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+  </head>
+  <body>
+    <header>
+      <h1>DogVision</h1>
+    </header>
+    <main>
+      <h2>Results:</h2>
+      <p>Your Lovely Dog Belongs To The Breed: {{ breed }}!</p>
+      <a href="/">Upload Another Image</a>
+    </main>
+    <footer>
+      <p>&copy; 2023 DogVision</p>
+    </footer>
+  </body>
+</html>
