@@ -1,0 +1,3 @@
+# DoggoDetective
+
+An end-to-end dog breed classifier project, where I developed a 2D Convolutional Neural Network to classify a dog's breed into one of the 120 available breed categories using the dog's image as an input. Carried out pre-processing on the image using NumPy, Pandas (For the CSV file containing labels), Scikit-Learn and TensorFlow. The dataset for this project was taken from Kaggle consisting of 10,000+ images. Finally, I deployed this model on a website using a Flask backend, where the user can upload their dog's image and get the name of its breed by submitting the image. The user gets redirected to the home page again enabling them to make multiple predictions.
